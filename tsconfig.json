@@ -4,5 +4,6 @@
         "rootDir": "src",
         "outDir": "dist",
         "inlineSourceMap": true,
-    }
+    },
+    "include": ["src/*.ts"]
 }
