@@ -8,4 +8,4 @@ Fast drop-in replacement for frida-compile
 
 ## Usage
 
-Just replace `frida-compile` with `frida-esbuild` in your cmdline
+Just replace `frida-compile` with `npx frida-esbuild` in your cmdline
