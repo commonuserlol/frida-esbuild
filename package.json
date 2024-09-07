@@ -12,12 +12,10 @@
         "frida",
         "esbuild"
     ],
-    "author": "",
+    "author": "commonuserlol",
     "license": "AGPL-3.0-only",
     "dependencies": {
-        "commander": "^12.1.0",
-        "esbuild": "^0.23.1",
-        "@frida/assert": "^3.0.1",
+        "@frida/assert": "^3.0.2",
         "@frida/base64-js": "^2.0.3",
         "@frida/buffer": "^7.0.4",
         "@frida/crosspath": "^3.0.0",
@@ -28,8 +26,8 @@
         "@frida/http-parser-js": "^1.0.0",
         "@frida/https": "^1.0.0",
         "@frida/ieee754": "^2.0.2",
-        "@frida/net": "^4.0.1",
-        "@frida/os": "^1.0.0",
+        "@frida/net": "^4.0.2",
+        "@frida/os": "^1.0.2",
         "@frida/path": "^2.0.3",
         "@frida/process": "^1.2.1",
         "@frida/punycode": "^3.0.0",
@@ -44,7 +42,9 @@
         "@frida/url": "^1.0.2",
         "@frida/util": "^1.0.3",
         "@frida/vm": "^2.0.0",
-        "frida-fs": "^5.2.3",
+        "commander": "^12.1.0",
+        "esbuild": "^0.23.1",
+        "frida-fs": "^5.2.5",
         "typed-emitter": "^2.1.0"
     },
     "devDependencies": {
