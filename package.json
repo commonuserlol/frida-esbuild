@@ -12,6 +12,9 @@
         "frida",
         "esbuild"
     ],
+    "files": [
+        "/dist/**/*.js"
+    ],
     "author": "commonuserlol",
     "license": "AGPL-3.0-only",
     "dependencies": {
