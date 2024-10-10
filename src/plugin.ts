@@ -49,7 +49,7 @@ export default function buildPlugin(): esbuild.Plugin {
         setup(build: esbuild.PluginBuild) {
             for (const module of SHIMS) {
                 build.onResolve({ filter: new RegExp(`^${module}$`) }, async () => {
-                    const result = await build.resolve(`@frida/${module}`, {
+                    const result = await build.resolve(module.includes("fs") ? `frida-fs` : `@frida/${module}`, {
                         kind: "import-statement",
                         resolveDir: dir
                     });
